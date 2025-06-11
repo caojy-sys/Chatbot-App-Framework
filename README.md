@@ -20,8 +20,8 @@ pip install -r requirements.txt
 pip install --upgrade streamlit audio_recorder_streamlit
 #命令行启动
 streamlit run ./src/home.py
-#如果出错，找到streamlit
+#如果出错，找到配置虚拟环境中的python.exe路径，进行 (..省略)/python.exe -m run ./src/home.py
 #PyCharm debug启动
-script：D:/software/python/python-3.12.4/.venv/Scripts/streamlit
+script：(C)D:/../streamlit #找到streamlit的本地路径
 script parameters：run ./src/home.py 
 Working directory：./Chatbot-App-Framework
