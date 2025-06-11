@@ -1,6 +1,6 @@
 import os 
 import streamlit as st 
-#C:\Users\20743\.conda\envs\py312\python.exe -m streamlit run home.py
+
 
 
 def home():
